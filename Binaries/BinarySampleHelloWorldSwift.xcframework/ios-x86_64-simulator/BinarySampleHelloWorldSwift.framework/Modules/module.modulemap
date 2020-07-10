@@ -1,0 +1,4 @@
+framework module BinarySampleHelloWorldSwift {
+  header "BinarySampleHelloWorldSwift-Swift.h"
+  requires objc
+}
