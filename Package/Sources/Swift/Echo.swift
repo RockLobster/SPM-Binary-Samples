@@ -7,9 +7,9 @@
 
 import Foundation
 
-class EchoSwift {
+public class EchoSwift {
     
-    func shout(_ input: String) -> String {
+    public func shout(_ input: String) -> String {
         return input
     }
 }
