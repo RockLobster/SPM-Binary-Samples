@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,7 @@
 		8792033524B88225008374A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8792033424B88225008374A1 /* Assets.xcassets */; };
 		8792033824B88225008374A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8792033724B88225008374A1 /* Preview Assets.xcassets */; };
 		8792034024B8824E008374A1 /* AccessingModules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8792033F24B8824E008374A1 /* AccessingModules.swift */; };
+		8792034724B88623008374A1 /* SPM-Binary-Samples in Frameworks */ = {isa = PBXBuildFile; productRef = 8792034624B88623008374A1 /* SPM-Binary-Samples */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8792034724B88623008374A1 /* SPM-Binary-Samples in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +42,7 @@
 			children = (
 				8792032F24B88224008374A1 /* SampleApp */,
 				8792032E24B88224008374A1 /* Products */,
+				8792034524B88623008374A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +75,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		8792034524B88623008374A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -88,6 +98,9 @@
 			dependencies = (
 			);
 			name = SampleApp;
+			packageProductDependencies = (
+				8792034624B88623008374A1 /* SPM-Binary-Samples */,
+			);
 			productName = SampleApp;
 			productReference = 8792032D24B88224008374A1 /* SampleApp.app */;
 			productType = "com.apple.product-type.application";
@@ -330,6 +343,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8792034624B88623008374A1 /* SPM-Binary-Samples */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "SPM-Binary-Samples";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8792032524B88224008374A1 /* Project object */;
 }

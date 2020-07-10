@@ -6,3 +6,7 @@
 //
 
 import Foundation
+import SourceSampleHelloWorldSwift
+import SourceSampleHelloWorldObjC
+import BinarySampleHelloWorldSwift
+import BinarySampleHelloWorldObjC
