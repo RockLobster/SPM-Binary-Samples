@@ -1,0 +1,6 @@
+framework module BinarySampleHelloWorldObjC {
+  umbrella header "BinarySampleHelloWorldObjC.h"
+
+  export *
+  module * { export * }
+}

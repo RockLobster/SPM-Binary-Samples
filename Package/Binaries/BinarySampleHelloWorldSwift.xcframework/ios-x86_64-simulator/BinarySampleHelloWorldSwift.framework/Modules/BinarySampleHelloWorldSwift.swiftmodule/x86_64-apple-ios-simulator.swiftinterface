@@ -3,3 +3,7 @@
 // swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BinarySampleHelloWorldSwift
 import Foundation
 import Swift
+@_hasMissingDesignatedInitializers public class EchoSwift {
+  public func shout(_ input: Swift.String) -> Swift.String
+  @objc deinit
+}
