@@ -8,7 +8,9 @@
 import Foundation
 
 public class EchoSwift {
-    
+
+    public init() {}
+
     public func shout(_ input: String) -> String {
         return input
     }
