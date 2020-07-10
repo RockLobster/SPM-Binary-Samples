@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8736F1D624B88AF4001E0FE7 /* BinarySampleHelloWorldObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 8736F1D524B88AF4001E0FE7 /* BinarySampleHelloWorldObjC.h */; };
+		8736F1D624B88AF4001E0FE7 /* BinarySampleHelloWorldObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 8736F1D524B88AF4001E0FE7 /* BinarySampleHelloWorldObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8790C4CA24B8713A00228A29 /* Echo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8790C4C924B8713A00228A29 /* Echo.swift */; };
 		8790C4DF24B871E700228A29 /* Echo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8790C4DC24B871E600228A29 /* Echo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8790C4E124B871E700228A29 /* Echo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8790C4DE24B871E600228A29 /* Echo.m */; };
