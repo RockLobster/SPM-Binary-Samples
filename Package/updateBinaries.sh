@@ -9,6 +9,7 @@ buildBinary() {
     PLATFORM=$2
 
     xcodebuild archive \
+        -quiet \
         -scheme "$SCHEME_NAME" \
         -destination "generic/platform=$PLATFORM" \
         -archivePath "$ARCHIVE_DIR/$SCHEME_NAME/$PLATFORM" \
