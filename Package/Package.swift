@@ -9,13 +9,40 @@ let package = Package(
         .iOS(.v14)
     ],
     products: [
-        // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "SPM-Binary-Samples",
             targets: [
                 "SourceSampleHelloWorldSwift",
                 "SourceSampleHelloWorldObjC",
                 "BinarySampleHelloWorldSwift",
+                "BinarySampleHelloWorldObjC"
+            ]
+        ),
+
+        .library(
+            name: "SourceSampleHelloWorldSwift",
+            targets: [
+                "SourceSampleHelloWorldSwift"
+            ]
+        ),
+
+        .library(
+            name: "SourceSampleHelloWorldObjC",
+            targets: [
+                "SourceSampleHelloWorldObjC"
+            ]
+        ),
+
+        .library(
+            name: "BinarySampleHelloWorldSwift",
+            targets: [
+                "BinarySampleHelloWorldSwift"
+            ]
+        ),
+
+        .library(
+            name: "BinarySampleHelloWorldObjC",
+            targets: [
                 "BinarySampleHelloWorldObjC"
             ]
         )
